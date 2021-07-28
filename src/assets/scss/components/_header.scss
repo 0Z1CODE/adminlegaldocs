@@ -1,0 +1,19 @@
+header {
+    background: $mainColor;
+    height: auto;
+    max-height: 70px;
+    
+}
+.logo_holder {
+    width: 120px;
+    width: 120px;
+padding: 5px 0;
+}
+
+.cst_menu_padding {
+    margin-left: 50px;
+    @media(max-width: 998px ) {
+        margin-left: 0;
+    }
+}
+

@@ -1,0 +1,63 @@
+.efield {
+  &__button {
+    cursor: pointer;
+  }
+  &__text {
+    font-family: "Exo 2", sans-serif;
+    font-size: 18px;
+  }
+  &__container {
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  &__edit-btn {
+    font-weight: bolder;
+  }
+  &__label {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  &__modal-label {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 3px 0;
+  }
+  &__input {
+    font-family: "Exo 2", sans-serif;
+    font-size: 18px;
+    &:active,
+    &:focus {
+      border: 0;
+      box-shadow: 0 0 0 0.045rem $primaryColor;
+    }
+  }
+  &__delete-btn  {
+    color: $cancelColor;
+    margin-left: 10px;
+  }
+  &__button > i{
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+  }
+
+  &__footer {
+    & > button {
+      font-size: 12px;
+      font-weight: 500;
+      border: none;
+      margin-left: 10px;
+      &:focus,
+      &:active {
+        box-shadow: none;
+      }
+    }
+  }
+
+  &__primary-btn {
+    background: $primaryColor !important;
+  }
+  &__cancel-btn {
+    background: $cancelColor !important;
+  }
+}

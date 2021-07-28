@@ -1,0 +1,40 @@
+.trotling-holder {
+  .trotling-line {
+    display: block;
+    height: 10px;
+    border-radius: 3px;
+    background: linear-gradient(89deg, #949494, #c5c5c5);
+    background-size: 1000% 150%;
+    -webkit-animation: AnimationName 2s ease infinite;
+    animation: AnimationName 6s ease infinite;
+
+    &:nth-child(1) {
+      width: 60%;
+    }
+    &:nth-child(2) {
+      width: 50%;
+    }
+    &:nth-child(3) {
+      width: 66%;
+    }
+    &:nth-child(4) {
+      width: 55%;
+    }
+    &:nth-child(5) {
+      width: 70%;
+    }
+  }
+  
+
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:28% 0%}
+  50%{background-position:73% 100%}
+  100%{background-position:28% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:28% 0%}
+  50%{background-position:73% 100%}
+  100%{background-position:28% 0%}
+}

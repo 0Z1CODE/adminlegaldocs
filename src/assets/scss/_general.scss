@@ -1,0 +1,55 @@
+@import "./var/general";
+@import "./components/icons";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/notification";
+@import "./components/base-information";
+@import "./../../components/NoDepended/EditibleField/efield.scss";
+@import "./../../components//StyledComponents/styled-component";
+// @import "./components/base-information";
+
+body * {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.accent_font {
+  font-family: "Exo 2", sans-serif;
+}
+.dark_card_border {
+  box-shadow: 0px 0px 5px 2px #e0e0e0;
+
+  .card-header {
+    border-color:  #252b3b5c;
+
+  }
+}
+.main_title {
+  color: $mainColor;
+  font-weight: 500;
+}
+.page-title {
+  
+}
+// !bootstrap
+.container-fluid {
+  padding: 0;
+}
+.bg-dark {
+  background: #252b3b !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+.dropdown-menu {
+  background-color: #252b3b;
+  border: 1px solid rgba(0, 0,0, 0.15);
+  transform: translate3d(0px, 50px, 0px) !important;
+}
+.dropdown-item {
+  color: #fff;
+}

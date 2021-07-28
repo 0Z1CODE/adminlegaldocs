@@ -1,0 +1,52 @@
+.noti_btn {
+    margin-right: 20px;
+
+        background: transparent !important;
+        border: none;
+        &:after {
+          display: none;
+        }
+        width: 100%;
+        height: auto;
+        &:focus,
+        &:active {
+          box-shadow: none !important;
+        }
+      
+}
+.notification__menu {
+    padding: 10px 10px;
+    width: 300px;
+    background-color: #fff !important;
+   
+}
+.notification {
+    &__body {
+        box-shadow: 0px 0px 5px 2px #e0e0e0;
+        padding: 10px 5px;
+        border-radius: 5px;
+        background: #dadada;
+    }
+    &__title {
+        color: $mainColor;
+        margin-bottom: 10px;
+    }
+    &__footer {
+        border-top: 1px solid $mainColor;
+        padding-top: 10px;
+    }
+}
+.note_btn {
+    color:#fff;
+    border: none;
+    padding: 2px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    &--show {
+        background: rgb(64, 115, 224) !important;
+        margin-right: 10px;
+    }
+    &--close {
+        background: rgb(197, 47, 47) !important;
+    }
+}
